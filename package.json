@@ -1,6 +1,6 @@
 {
   "name": "@vineet4b/tree-shaking-demo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "build": "webpack"
@@ -12,6 +12,7 @@
   "types": "./types/index.d.ts",
   "main": "./src/index.js",
   "exports": {
+    ".": "./src/index.js",
     "./src/math.js": {
       "import": "./src/export/export.js",
       "require": "./src/export/export.cjs"
