@@ -1,4 +1,2 @@
-import { add, multiply } from "./math.js";
-import { capitalize, lowercase } from "./string.js";
-
-export { add, multiply, capitalize, lowercase }
+export * from "./math.js";
+export * from "./string.js";
