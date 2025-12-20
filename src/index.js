@@ -1,5 +1,9 @@
-import { add } from "./math.js";
-import { capitalize } from "./string.js";
+import { add, multiply } from "./math.js";
+import { capitalize, lowercase } from "./string.js";
 
-const sum = add(1,2)
-console.log(sum)
+export default {
+    add,
+    multiply,
+    capitalize,
+    lowercase
+};
