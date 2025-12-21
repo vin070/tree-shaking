@@ -1,7 +1,4 @@
-export function add(a: number, b: number): number;
-
-export function multiply(a: number, b: number): number;
-
-export function capitalize(str: string): string;
-
-export function lowercase(str: string): string;
+declare function add(a: number, b: number): number;
+declare function multiply(a: number, b: number): number;
+declare function capitalize(str: string): string;
+declare function lowercase(str: string): string;

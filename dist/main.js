@@ -1,1 +1,0 @@
-(()=>{"use strict";const o=(console.log("add loaded"),3);console.log(o)})();

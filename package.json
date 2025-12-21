@@ -23,7 +23,7 @@
   "types": "./types/index.d.ts",
   "main": "./src/index.js",
   "exports": {
-    ".": "./src/index.js",
+    ".": "./src/export/export.js",
     "./add": "./src/math.js",
     "./math": {
       "import": "./src/export/export.js",
