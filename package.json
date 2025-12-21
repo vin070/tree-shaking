@@ -1,6 +1,6 @@
 {
   "name": "@vineet4b/tree-shaking-demo",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "type": "module",
   "repository": {
     "type": "git",
@@ -24,7 +24,6 @@
   "main": "./src/index.js",
   "exports": {
     ".": "./src/export/export.js",
-    "./add": "./src/math.js",
     "./math": {
       "import": "./src/export/export.js",
       "require": "./src/export/export.cjs"
