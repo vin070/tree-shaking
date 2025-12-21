@@ -12,7 +12,7 @@
     "url": "https://www.linkedin.com/in/vineet-webrtc/"
   },
   "description": "Hi how are you, I am your desc",
-  "readme": "./README.md",
+  "readme": "https://github.com/vin070/tree-shaking/blob/master/README.md",
   "scripts": {
     "build": "webpack"
   },
