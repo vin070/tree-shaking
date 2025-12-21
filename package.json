@@ -1,6 +1,6 @@
 {
   "name": "@vineet4b/tree-shaking-demo",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "type": "module",
   "repository": {
     "type": "git",
@@ -24,18 +24,18 @@
   "exports": {
     ".": {
       "import": "./src/export/export.js",
-      "types": "./src/types/index.d.ts",
+      "types": "./types/index.d.ts",
       "require": "./src/export/export.cjs"
     },
     "./math": {
       "import": "./src/export/export.js",
       "require": "./src/export/export.cjs",
-      "types": "./src/types/math.d.ts"
+      "types": "./types/math.d.ts"
     },
     "./string": {
       "import": "./src/export/export.js",
       "require": "./src/export/export.cjs",
-      "types": "./src/types/string.d.ts"
+      "types": "./types/string.d.ts"
     }
   }
 }
